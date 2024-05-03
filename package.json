@@ -1,0 +1,17 @@
+{
+  "name": "class-diagram-implementations",
+  "version": "1.0.0",
+  "description": "Class Diagrams implements os TS",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
