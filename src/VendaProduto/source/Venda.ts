@@ -7,7 +7,7 @@ export class Venda {
   private total: number;
   private formPgt: string;
   private cliente: Cliente;
-  private itemVenda: ItemVenda[];
+  private itemVenda: ItemVenda[] = [];
   private produto: Produto;
 
   constructor(data: Date, total: number, formPgt: string) {
